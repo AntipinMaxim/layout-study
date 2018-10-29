@@ -10,8 +10,7 @@ body {
 
                       /*  HEADER   */
 
-.header__container {
-  margin-right: -22px;
+.header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -21,6 +20,10 @@ body {
   min-height: 108px;
   background-color: #777777;
   margin-right: 22px;
+}
+
+.header__item:last-child {
+  margin-right: 0;
 }
 
 .header__item--size-small {
@@ -178,6 +181,7 @@ body {
 .footer-nav__list {
   column-count: 2;
   padding-top: 15px;
+  list-style-type: none;
 }
 
 .footer-tariff__list {
