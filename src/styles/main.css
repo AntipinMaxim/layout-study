@@ -1,4 +1,4 @@
-.body {
+body {
   margin: 0;
   padding: 0;
 }
@@ -25,12 +25,10 @@
 
 .header__item--size-small {
   flex: 1;
-
 }
 
 .header__item--size-medium {
   flex: 2;
-
 }
 
 .header__item--size-large {
@@ -65,7 +63,7 @@
   max-width: 184px;
 }
 
-.sidebar-positioning {
+.sidebar--positioning {
   margin-right: 20px;
 }
 
