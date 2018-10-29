@@ -9,7 +9,9 @@
 }
 
                       /*  HEADER   */
-.header {
+
+.header__container {
+  margin-right: -22px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -18,16 +20,17 @@
 .header__item {
   min-height: 108px;
   background-color: #777777;
+  margin-right: 22px;
 }
 
 .header__item--size-small {
   flex: 1;
-  margin-right: 23px;
+
 }
 
 .header__item--size-medium {
   flex: 2;
-  margin-right: 22px;
+
 }
 
 .header__item--size-large {
@@ -156,11 +159,9 @@
 }
 
                   /*FOOTER*/
-.footer {
-  display: flex;
-}
 
-.footer-positioning {
+.footer__container {
+  display: flex;
   margin: 0 -20px;
 }
 
