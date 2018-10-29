@@ -15,5 +15,6 @@ __yarn lint:css__
 
 ***
 ***[Рекомендуемый стиль кода](http://codeguide.academy/html-css.html)***
-*** [БЭМ](https://ru.bem.info/methodology/quick-start/)***
+
+***[БЭМ](https://ru.bem.info/methodology/quick-start/)***
 ***
