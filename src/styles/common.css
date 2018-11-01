@@ -1,3 +1,199 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+a:link {
+  color: white;
+  text-decoration: underline;
+}
+
+/* HEADER */
+
+header {
+  max-width: 1400px;
+}
+
+.container-logo-contacts {
+  display: flex;
+  max-height: 230px;
+  background-color: #dcdcdc;
+  align-items: center;
+  justify-content: space-between;
+  padding: 65px 210px;
+  color: #767676;
+}
+
+.header__logo {
+  display: flex;
+  max-width: 273px;
+  max-height: 100px;
+}
+
+.header__logo-img {
+  background-color: #767676;
+  max-width: 100px;
+}
+
+.header__name-company {
+  margin-left: 5px;
+}
+
+.header__title-company {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 0.9em;
+  padding: 7px 0;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.header__tagline {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.header__contacts-list {
+  list-style-type: none;
+  font-size: 24px;
+  min-width: 260px;
+}
+
+.header__nav {
+  background-color: #767676;
+  max-height: 80px;
+  color: white;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  max-width: 1400px;
+  margin: 0;
+}
+
+.header__nav-item {
+  font-size: 24px;
+  border-right: 1px solid white;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.header__nav-item a:link {
+  text-decoration: none;
+}
+
+.header__nav-item:last-child {
+  border: none;
+}
+
+.header__img {
+  min-height: 400px;
+}
+
+.block-hidden {
+  display: none;
+}
+
+/* NEWS AND CONTENT */
+
+.container-news-content {
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.news {
+  background-color: #767676;
+  max-width: 350px;
+  max-height: 560px;
+  padding: 22px 36px;
+}
+
+.news__title {
+  font-size: 24px;
+  color: white;
+}
+
+.news__list {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.news__item {
+  padding-top: 15px;
+}
+
+.news__item:last-child {
+  text-align: right;
+}
+
+.content {
+  max-width: 580px;
+  padding: 15px;
+  padding-left: 60px;
+  font-size: 14px;
+  color: #767676;
+}
+
+.content__title {
+  letter-spacing: 1px;
+}
+
+/* FOOTER */
+
+.footer {
+  min-height: 220px;
+  background-color: #767676;
+}
+
+.footer-positioning {
+  display: flex;
+  margin-top: 195px;
+  align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  min-width: 100%;
+  max-width: 1400px;
+  justify-content: space-around;
+  color: white;
+  font-size: 14px;
+}
+
+.footer__nav-list {
+  list-style-type: none;
+}
+
+.footer__logo {
+  display: flex;
+}
+
+.footer__logo-img {
+  max-width: 36px;
+  max-height: 38px;
+  margin-right: 25px;
+}
+
+.footer__name-company {
+  max-height: 33px;
+  max-width: 180px;
+}
+
+.header__nav-item a:hover {
+  text-decoration: underline;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
