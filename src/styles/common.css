@@ -14,29 +14,26 @@ header {
   max-width: 1400px;
 }
 
-.container-logo-contacts {
+.header__container {
   display: flex;
-  max-height: 230px;
+  max-width: 1400px;
   background-color: #dcdcdc;
   align-items: center;
-  justify-content: space-between;
-  padding: 65px 210px;
+  justify-content: space-around;
+  padding-top: 65px;
+  padding-bottom: 65px;
   color: #767676;
 }
 
 .header__logo {
   display: flex;
   max-width: 273px;
-  max-height: 100px;
 }
 
 .header__logo-img {
   background-color: #767676;
   max-width: 100px;
-}
-
-.header__name-company {
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .header__title-company {
@@ -63,7 +60,6 @@ header {
 
 .header__nav {
   background-color: #767676;
-  max-height: 80px;
   color: white;
 }
 
@@ -100,7 +96,7 @@ header {
   display: none;
 }
 
-/* NEWS AND CONTENT */
+/* CONTAINER-NEWS-CONTENT */
 
 .container-news-content {
   max-width: 1400px;
@@ -112,7 +108,6 @@ header {
 .news {
   background-color: #767676;
   max-width: 350px;
-  max-height: 560px;
   padding: 22px 36px;
 }
 
@@ -181,12 +176,10 @@ header {
 
 .footer__logo-img {
   max-width: 36px;
-  max-height: 38px;
   margin-right: 25px;
 }
 
 .footer__name-company {
-  max-height: 33px;
   max-width: 180px;
 }
 
