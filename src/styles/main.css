@@ -3,3 +3,314 @@ body {
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: underline;
+}
+
+.content-container {
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* HEADER */
+
+header {
+  margin-bottom: 30px;
+  color: #767676;
+}
+
+.header__bg-wrapper {
+  background-color: #dcdcdc;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  max-width: 273px;
+}
+
+.header__logo-img {
+  background-color: #767676;
+  max-width: 100px;
+  margin-right: 5px;
+}
+
+.header__title-company {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 0.9em;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.header__tagline {
+  font-size: 12px;
+}
+
+.header__contacts-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-size: 24px;
+  min-width: 260px;
+}
+
+.top-nav {
+  color: white;
+  background-color: #767676;
+}
+
+.top-nav__list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  max-width: 1400px;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav__item {
+  font-size: 24px;
+  border-right: 1px solid white;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.top-nav__item a:link {
+  text-decoration: none;
+}
+
+.top-nav__item a:hover {
+  text-decoration: underline;
+}
+
+.top-nav__item:last-child {
+  border: none;
+}
+
+.header__img {
+  min-height: 400px;
+}
+
+.block-hidden {
+  display: none;
+}
+
+/* PATH */
+
+.path {
+  font-size: 14px;
+  margin-bottom: 26px;
+}
+
+.path__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.path__list li {
+  margin: 0 4px;
+}
+
+.path a {
+  color: #767676;
+}
+
+.path a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* CONTAINER-SIDEBAR-CATALOG */
+
+.container-sidebar-catalog {
+  display: flex;
+  margin-bottom: 195px;
+  font-size: 14px;
+}
+
+.container-sidebar-catalog a {
+  color: #767676;
+}
+
+.container-sidebar-catalog a:link {
+  text-decoration: none;
+}
+
+.container-sidebar-catalog a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.sidebar {
+  width: 178px;
+  margin-right: 22px;
+}
+
+.sidebar__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 110px;
+}
+
+.sidebar__nested-list {
+  list-style-type: disc;
+}
+
+.sidebar__nested-list li {
+  color: #767676;
+}
+
+.price-list__logo a {
+  display: block;
+  border: 1px solid;
+  width: 100px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.price-list h4 {
+  font-size: 28px;
+}
+
+.products-catalog {
+  width: 100%;
+}
+
+.container {
+  margin-bottom: 32px;
+}
+
+.product {
+  background-color: rgb(220, 220, 220);
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.product__img {
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.product h4 {
+  font-size: 13px;
+  color: #767676;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.product__price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page {
+  width: 174px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.page__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: baseline;
+}
+
+.page__list li {
+  margin: 0 10px;
+}
+
+.page__list li:nth-child(3) {
+  font-size: 18px;
+}
+
+.lane {
+  margin-bottom: 30px;
+}
+
+.company-description {
+  display: flex;
+}
+
+.company-description__column1 {
+  margin-right: 40px;
+}
+
+/* FOOTER */
+
+.footer {
+  min-height: 220px;
+  background-color: #767676;
+  display: flex;
+  align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 14px;
+}
+
+.footer__nav-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__nav-item a:hover {
+  text-decoration: none;
+}
+
+.footer__logo {
+  display: flex;
+}
+
+.footer__logo-img {
+  max-width: 36px;
+  margin-right: 25px;
+}
+
+.footer__name-company {
+  max-width: 180px;
+}
+
+.footer__name-company a:hover {
+  color: white;
+  text-decoration: none;
+}
