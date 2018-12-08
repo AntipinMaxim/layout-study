@@ -1,7 +1,8 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Open Sans', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
@@ -48,6 +49,7 @@ a {
 .logo__link-home {
   margin-right: 5px;
 }
+
 .name-site {
   font-size: 9px;
   font-style: italic;
@@ -232,14 +234,17 @@ a {
 }
 
 .about {
-  padding-left: 45%;
-  padding-right: 10%;
-  padding-top: 5%;
   min-height: 450px;
   background-image: url("../img/about-bg.jpg");
   background-repeat: no-repeat;
   background-size: 40% 100%;
   color: black;
+}
+
+.header__about {
+  padding-left: 45%;
+  padding-right: 10%;
+  padding-top: 5%;
 }
 
 .about h3 {
@@ -260,8 +265,8 @@ a {
   min-height: 550px;
   background-image: url("../img/base-bg.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 90%;
-  background-size: 120%;
+  background-position: 50% 100%;
+  background-size: cover;
 }
 
 .base__bg-layer {
@@ -415,7 +420,7 @@ a {
   margin-bottom: 0;
 }
 
-@media (max-width:1100px){
+@media (max-width: 1100px) {
   .container-alignment {
     margin: 0 10px;
   }
@@ -429,7 +434,7 @@ a {
   }
 }
 
-@media (max-width:925px){
+@media (max-width: 925px) {
   .top-line__top-nav {
     display: none;
   }
@@ -453,7 +458,70 @@ a {
   }
 
   .about {
+    min-height: auto;
     background-image: none;
     padding: 0;
+  }
+
+  .header__about {
+    margin: 10px;
+  }
+
+  .about-us {
+    background-image: none;
+    min-height: auto;
+    margin: 10px;
+  }
+
+  .about-us h3{
+    margin-top: 0;
+  }
+
+  .about-us__wrap {
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .title__wrap {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title__wrap {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .title {
+    min-height: 350px;
+  }
+
+  .footer {
+    min-height: 150px;
+  }
+
+  .base__wrap {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 535px) {
+  .header__block1 h1 {
+    text-align: left;
+  }
+
+  .top-nav__item {
+    margin-right: 5%;
+  }
+
+  .top-nav__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .header {
+    min-height: 0;
   }
 }
